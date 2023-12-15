@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="web-title">
+                <a href="#">Front<b>End</b></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">My Batch</a></li>
+                    <li><a href="#">Sign out</a></li>
+                </ul>
+
+            </div>
+            <button class="btn btn-primary" id="nav-list-btn" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">|||</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasRightLabel"><strong>Front<b>End</b></strong>
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-book-open"></i> Courses</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> Resources</a></li>
+                        <li><a href="#"><i class="fa-solid fa-star"></i> My Batch</a></li>
+                        <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Sign out</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main-heading">
+            <div class="text-contant">
+                <div>
+                    <h1>Learn & become the</h1>
+                    <h1><b>Top 1% Software developer</b> </h1>
+                </div>
+
+                <div>
+                    <button>Explore Now</button>
+                </div>
+                <div class="content">
+                    <h3 class="typedtext"></h3>
+                </div>
+
+            </div>
+    </header>
+    <div class="community">
+        <h3>INDIA'S MOST LOVED CODING COMMUNITY <i class="fa-solid fa-heart"></i></h3>
+        <div class="counter">
+            <div>
+                <h3 id="counter1"> 0</h3>
+                <span><i class="fa-solid fa-user-group"> </i> HAPPY LEARNERS
+                </span>
+            </div>
+
+            <div>
+                <h3 id="counter2">0</h3>
+                <span><i class="fa-solid fa-hand-holding-heart"> </i> MONTHLY VIEWS</span>
+            </div>
+            <div>
+                <h3 id="counter3"></h3>
+                <span><i class="fa-solid fa-link"> </i> NEW MONTHLY SUBSCRIBERS</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="rows">
+            <div class="cols image">
+
+                <img src="images/home-benefit-1.webp">
+
+
+            </div>
+            <div class="cols about-us">
+                <div>
+                    <center>
+                        <span href="#">&#128127;</span>
+                    </center>
+
+                </div>
+                <div>
+                    <h1>Escape tutorial hell</h1>
+                </div>
+                <div>
+                    <article>
+                        Add projects to your learning journey and put your knowledge to the test. The real learning
+                        happens when you start solving real-world problems yourself.
+                    </article>
+                </div>
+
+            </div>
+        </div>
+        <div class="rows" id="rows-2">
+            <div class="cols about-us">
+                <div>
+                    <center>
+                        <span>&#129321;</span>
+                    </center>
+
+                </div>
+                <div>
+                    <h1>Build portfolio-worthy projects</h1>
+                </div>
+                <div>
+                    <article>
+                        Design is hard. we take care of the project ideas and design so you can focus on the coding.
+                        you'll end up with an incredible portfolio of stunning projects!
+                    </article>
+                </div>
+
+            </div>
+            <div class="cols image">
+
+                <img src="images/home-benefit-2.webp">
+
+
+            </div>
+        </div>
+        <div class="rows">
+            <div class="cols image">
+                <div>
+                    <img src="images/home-benefit-3.webp">
+                </div>
+            </div>
+            <div class="cols about-us">
+                <div>
+                    <center>
+                        <span>&#128640;</span>
+                    </center>
+
+                </div>
+                <div>
+                    <h1>Banish impostor syndrome</h1>
+                </div>
+                <div>
+                    <article>
+                        We've all felt out of our depth before. Getting hands-on experience is an incredible way to
+                        build confidence, refine your workflow, and supercharge your learning
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="rows" id="rows-4">
+            <div class="cols about-us">
+                <div>
+                    <center>
+                        <span>&#128296;</span>
+                    </center>
+
+                </div>
+                <div>
+                    <h1>Practice new tools</h1>
+                </div>
+                <div>
+                    <article>
+                        The front-end landscape changes constantly. Our design-led Challenges let you pick your tools to
+                        help you adapt, experiment, and keep up with th latest trends.
+                    </article>
+                </div>
+            </div>
+            <div class="cols image">
+
+                <img src="images/home-benefit-4.webp">
+
+
+            </div>
+        </div>
+        <div class="rows">
+            <div class="cols image">
+
+                <img src="images/home-benefit-5.webp">
+
+
+            </div>
+            <div class="cols about-us">
+                <div>
+                    <center>
+                        <span>&#128187;</span>
+                    </center>
+
+                </div>
+                <div>
+                    <h1>Practice new tools</h1>
+                </div>
+                <div>
+                    <article>
+                        The front-end landscape changes constantly. Our design-led Challenges let you pick your tools to
+                        help you adapt, experiment, and keep up with th latest trends.
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="join-us">
+        <div>
+            <h2>JOIN US ON</h2>
+        </div>
+        <div class="social-media icons">
+            <div class="youTube">
+                <span><i class="fa-brands fa-youtube"></i></span>
+                <h4>You tube</h4>
+
+            </div>
+            <div class="instagram">
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <h4>Instagram</h4>
+            </div>
+            <div class="telegram">
+                <span><i class="fa-brands fa-telegram"></i></span>
+                <h4>Telegram</h4>
+            </div>
+        </div>
+    </div>
+    <div class="accordion">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4>What is FrontEnd ?</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>
+                            Frontend refers to the user interface and user experience of a software application or
+                            website that users interact with directly. It involves designing and developing the visual
+                            elements, layout, and features of the application, typically using technologies such as
+                            HTML, CSS, and JavaScript for rendering and interactivity</span></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h4>HTML and CSS</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>HTML (Hypertext Markup Language) is the standard language for
+                            creating web pages, defining the structure and content elements like text, images, and
+                            links. CSS (Cascading Style Sheets) complements HTML by styling the presentation,
+                            controlling layout, colors, and typography. HTML serves as the backbone, organizing
+                            information, while CSS beautifies and ensures consistency across various devices. Developers
+                            use HTML tags to create page structure, and CSS rules to apply styles. The combination of
+                            HTML and CSS forms the fundamental building blocks of web design, enabling developers to
+                            craft visually engaging, responsive, and accessible user interfaces for websites and
+                            applications across the internet.</span></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h4>Javascript and JQuery</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>
+                            JavaScript is a versatile scripting language used to enhance web interactivity. It runs in
+                            web browsers, enabling dynamic content, user interactions, and asynchronous communication.
+                            jQuery, a JavaScript library, simplifies web development by abstracting common tasks into
+                            concise methods. It streamlines DOM manipulation, event handling, and AJAX requests,
+                            reducing code complexity. JavaScript is a full-fledged programming language, while jQuery is
+                            a lightweight tool built on it. While modern JavaScript frameworks are gaining popularity,
+                            jQuery remains a valuable choice for quick development and cross-browser compatibility,
+                            offering a rich set of features to create interactive and responsive web applications with
+                            less code</span></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <h4> Frameworks Like Bootstrap</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>
+                            Frameworks like Bootstrap simplify web development by offering pre-designed, responsive
+                            components and a grid system. These tools, including Foundation and Bulma, expedite the
+                            creation of consistent, visually appealing websites. They provide ready-to-use styles,
+                            navigation bars, and modals, reducing manual coding effort. These frameworks prioritize
+                            mobile responsiveness, enhancing the user experience across devices. Developers benefit from
+                            customization options and a cohesive design language, promoting efficiency and uniformity in
+                            application development. While Bootstrap is widely adopted, other frameworks cater to
+                            specific preferences and project requirements, collectively contributing to the streamlined
+                            and accelerated creation of modern, responsive, and visually appealing web
+                            interfaces.</span></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <h4>JavaScript Library Like ReactJS</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>
+                            ReactJS, a JavaScript library, streamlines building user interfaces for web applications.
+                            Developed by Facebook, it efficiently updates and renders components, improving performance.
+                            Its declarative syntax simplifies UI development, allowing developers to describe how the UI
+                            should appear based on the application state. React promotes component-based architecture,
+                            fostering modular and reusable code. Virtual DOM optimizes rendering speed by updating only
+                            the necessary components. React's ecosystem includes tools like Redux for state management.
+                            While React is prominent, Vue.js and Angular are other popular JavaScript
+                            libraries/frameworks offering similar functionalities, catering to different preferences and
+                            project requirements in creating robust, interactive web applications.</span></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <h4> All About FrontEnd </h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><span>
+                            Frontend, also known as client-side development, focuses on the user interface and user
+                            experience of web applications. Frontend developers use technologies like HTML, CSS, and
+                            JavaScript to create visually appealing and interactive websites. HTML structures content,
+                            CSS styles presentation, and JavaScript adds dynamic behavior. Modern frameworks like React,
+                            Vue, and Angular streamline frontend development, facilitating component-based architecture
+                            and efficient state management. Responsive design ensures compatibility across devices.
+                            Frontend development requires understanding user interactions, accessibility, and optimizing
+                            performance. It plays a crucial role in shaping the visual and interactive aspects of
+                            digital experiences, bridging the gap between users and backend functionality.</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="rows">
+            <div class="cols">
+                <h5 class="web-title">Front<b>End</b></h5>
+                <span>We are india's Most <br>Loved Coding Community.<br> Join Us!</span><br>
+                <input type="text" name="search" id="search" placeholder="Search..">
+                <button class="button">Search</button>
+            </div>
+            <div class="cols">
+                <h6>USEFUL LINKS</h6>
+                <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">refund & Cancellation Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="cols">
+                <h6>WORK WITH US</h6>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Become an Instructor</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Hire From FrontEnd</a></li>
+                </ul>
+            </div>
+            <div class="cols">
+                <h6>CONNECT WITH US</h6>
+                <ul>
+                    <li><a href="#">Facebook <i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#">Youtube <i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
